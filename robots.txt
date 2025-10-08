@@ -1,0 +1,39 @@
+```
+# Robots.txt SEO ultra optimisé - comparateur-formation.com
+
+User-agent: *
+# Bloquer les dossiers et pages techniques
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /profil/
+Disallow: /panier/
+Disallow: /checkout/
+Disallow: /recherche/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+
+# Bloquer les URLs avec paramètres inutiles ou duplicatifs
+Disallow: /*?*utm_source=
+Disallow: /*?*utm_medium=
+Disallow: /*?*utm_campaign=
+Disallow: /*?*gclid=
+Disallow: /*?*fbclid=
+Disallow: /*?*session=
+Disallow: /*?*tri=
+Disallow: /*?*filtre=
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Autoriser explicitement les pages importantes
+Allow: /formations/
+Allow: /comparateur/
+Allow: /articles/
+Allow: /blog/
+Allow: /
+
+# Déclaration du sitemap
+Sitemap: https://comparateur-formation.com/sitemap.xml
+```
